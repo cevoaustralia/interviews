@@ -1,9 +1,11 @@
 # VPC scenario 
 
 ## Background
-The head of cloud has asked you to design the new configuration of code for VPCs in the organisation
+The head of cloud has asked you to deliver the design for VPCs in the organisation via configuration-as-code.
 
-You will need to submit a method of being able to repeatedly deploy a VPC. 
+You will need to submit a method of being able to repeatedly deploy a VPC with the below requirements. 
+
+Please include, if necessary, the most minimal amount of commentary on how to deploy your solution.
 
 ### VPC requirements
 
@@ -13,11 +15,11 @@ You will need to submit a method of being able to repeatedly deploy a VPC.
 
 The VPC must...
 
-* take in a /20 ip range
+* take in /20 ip range
 * have a default DHCP options set
 * be highly available - with 2 AZs
 * have a private and public subnets 
-* accept http and https traffic from the open internet
+* accept http and https traffic from the open internet into the public subnet only
 * the private subnet should be able to route out to the internet for package and patch updates
 * the private subnet must only support RDS MySQL ports and web ports (http and https)
 * private a clear method of application to be able to find what subnets to use
