@@ -27,3 +27,6 @@ The company uses AWS extensively and would prefer that these sites be hosted in-
 
 
 
+## What to submit
+
+Submit high level architectural diagrams that satisfy the betting company.
