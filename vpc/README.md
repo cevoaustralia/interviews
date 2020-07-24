@@ -5,12 +5,11 @@ The head of cloud has asked you to deliver the design for VPCs in the organisati
 
 You will need to submit a method of being able to repeatedly deploy a VPC with the below requirements. 
 
-Please include, if necessary, the most minimal amount of commentary on how to deploy your solution.
+##  requirements
 
 ### VPC requirements
 
 ![vpc](vpc.png)
-
 
 
 The VPC must...
@@ -30,6 +29,9 @@ Additionally the VPC must be future proof to support
 * talk security and privately to an ECR repo 
 
 
+### Other requirements 
+
+Please include, if necessary, the most minimal amount of commentary on how to deploy your solution.
 
 
 
